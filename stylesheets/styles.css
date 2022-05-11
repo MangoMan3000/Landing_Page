@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: space-around;
+    flex: 1;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.hero_container {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    justify-items: space-around;
+}
+
+.hero_container p {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.cards {
+    display: flex;
+}
