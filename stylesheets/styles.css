@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    align-content: center;
 }
 
 .header {
@@ -23,12 +24,12 @@ li {
 }
 
 .hero_container {
-    display: flex;
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
-    justify-items: space-around;
+    display: flex;
+    justify-content: center;
 }
 
 .hero_container p {
@@ -37,6 +38,47 @@ li {
     font-weight: 100;
 }
 
+.hero_text {
+    max-width: 600px;
+}
+
 .cards {
     display: flex;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+.quote {
+    align-self: center;
+    max-width: 700px;
+}
+
+.quote p {
+    display: flex;
+    justify-content: end;
+}
+
+.call_to_action {
+    align-self: center;
+}
+
+.footer {
+    align-self: center;
 }
