@@ -1,1 +1,2 @@
 # Landing_Page
+I will be building the awesome webpage for the odin projects project. I will be building it from scratch and using flexbox to move things around. Once everything is in place, I will begin to style it. I have not yet decided on a theme or if I will just re-build the display image.
