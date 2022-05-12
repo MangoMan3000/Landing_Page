@@ -10,7 +10,6 @@ body {
     display: flex;
     background-color: #1f2937;
     color: #f9faf8;
-    flex: 1;
     justify-content: space-around;
     padding-top: 16px;
 }
@@ -88,8 +87,8 @@ h2 {
 }
 
 .card img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 25%;
     border: 5px solid #3882f6;
 }
@@ -97,7 +96,7 @@ h2 {
 .card {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    max-width: 250px;
     flex-shrink: 0;
     flex-wrap: wrap;
     padding: 16px;
@@ -124,4 +123,11 @@ h2 {
 
 .footer {
     align-self: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.call_to_action {
 }
