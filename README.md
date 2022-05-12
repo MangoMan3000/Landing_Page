@@ -12,3 +12,6 @@ Hero Container Image:
 Ulrike Leone, ulleo
 https://pixabay.com/users/ulleo-1834854/
 
+Card Image One, Calf:
+Janko Ferlic
+https://www.pexels.com/@thepoorphotographer/

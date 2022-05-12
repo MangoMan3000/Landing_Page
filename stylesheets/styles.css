@@ -48,12 +48,13 @@ button {
     font-weight: bolder;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 100px;
 }
 
 .hero_container img {
-    max-width: 432px;
-    max-height: 288px;
+    max-width: 648px;
+    max-height: 432px;
     border-radius: 5%;
 }
 
@@ -61,43 +62,46 @@ button {
     color: #e5e7eb;
     font-size: 18px;
     font-weight: 100;
-    margin: 0;
-}
-
-.hero_container button {
-    margin: 0;
 }
 
 .hero_text {
     max-width: 600px;
     flex-shrink: 0;
+    text-align: center;
 }
 
 h1 {
-    margin: 0;
-}
-
-.cards {
-    display: flex;
+    margin-top: 0;
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 30px;
 }
 
 .cards {
     display: flex;
     justify-content: center;
+    gap: 50px;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 25%;
+    border: 5px solid #3882f6;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    max-width: 150px;
+    max-width: 300px;
     flex-shrink: 0;
     flex-wrap: wrap;
     padding: 16px;
+    text-align: center;
 }
 
 .quote {
