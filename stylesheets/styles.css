@@ -1,5 +1,8 @@
-body {
+body, .header, .quote p, ul, .hero_container, .cards, .card, .quote, h3, .call_to_action, .action_container {
     display: flex;
+}
+
+body {
     flex-direction: column;
     margin: 0;
     align-content: center;
@@ -7,7 +10,6 @@ body {
 }
 
 .header {
-    display: flex;
     background-color: #1f2937;
     color: #f9faf8;
     justify-content: space-around;
@@ -21,7 +23,6 @@ body {
 }
 
 ul {
-    display: flex;
     gap: 16px;
     align-items: center;
 }
@@ -45,7 +46,6 @@ button {
     color: #f9faf8;
     font-size: 40px;
     font-weight: bolder;
-    display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 100px;
@@ -66,7 +66,6 @@ button {
 .hero_text {
     max-width: 600px;
     flex-shrink: 0;
-    text-align: center;
 }
 
 h1 {
@@ -81,7 +80,6 @@ h2 {
 }
 
 .cards {
-    display: flex;
     justify-content: center;
     gap: 50px;
 }
@@ -94,7 +92,6 @@ h2 {
 }
 
 .card {
-    display: flex;
     flex-direction: column;
     max-width: 250px;
     flex-shrink: 0;
@@ -104,13 +101,17 @@ h2 {
 }
 
 .quote {
+    flex-direction: column;
+}
+
+h3 {
     align-self: center;
     max-width: 700px;
 }
 
 .quote p {
-    display: flex;
     justify-content: end;
+    margin-right: 35%;
 }
 
 .call_to_action {
@@ -118,16 +119,29 @@ h2 {
 }
 
 .action_container {
-    display: flex;
+    background-color: #3882F6;
+    width: 1000px;
+    border-radius: 12px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
+.cta_text {
+    color: #e5e7eb;  
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
 .footer {
-    align-self: center;
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
 
 .quote {
     background-color: #e5e7eb;
-}
-
-.call_to_action {
 }
